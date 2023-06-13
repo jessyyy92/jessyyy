@@ -26,6 +26,7 @@
         <activity android:name=".NukkiDoneActivity"/>
         <activity android:name=".DoneActivity"/>
         <activity android:name=".FillFormActivity"/>
+        <activity android:name=".FileSavedActivity"/>
     </application>
 
 </manifest>

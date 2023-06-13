@@ -40,15 +40,15 @@ public class FillFormActivity extends AppCompatActivity {
             }
         });
 
-//        button = findViewById(R.id.button3); // 버튼 찾기
-//        button.setOnClickListener(new View.OnClickListener() {
-//
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(getApplicationContext(), DoneActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        button = findViewById(R.id.button3); // 버튼 찾기
+        button.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FileSavedActivity.class);
+                startActivity(intent);
+            }
+        });
 
 //        setContentView(activityMainBinding.getRoot());
     }
