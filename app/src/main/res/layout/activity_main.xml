@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="2.5dp"
+    android:layout_marginRight="2.5dp"
+    android:background="#F3F6FA"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    package="com.example.cameraview">
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backmark"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/backmark"
+            android:backgroundTint="#0D0D0D"
+            android:maxHeight="28dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:scaleType="center"
+            android:text="인감촬영"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        app:srcCompat="@drawable/bar55" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:background="#F3F6FA"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="300dp"
+            app:srcCompat="@drawable/rectangle_style">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="300dp"
+            app:srcCompat="@drawable/rectangle_style" />
+
+            <ImageView
+                android:id="@+id/new_stamp"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:maxHeight="300dp"
+                app:srcCompat="@drawable/crop_done" />
+            <!--            tools:srcCompat="@tools:sample/avatars" />-->
+
+
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/corporation_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="320dp"
+            android:text="법인명: (주) 찍찍 코퍼레이션"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/corporation_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="320dp"
+            android:text="법인번호: 130101-0006246"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/corporation_num2"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_marginBottom="2dp"
+            android:adjustViewBounds="true"
+            android:maxHeight="320dp"
+            android:text="사업자번호: 410-81-85312"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/checkment7" />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:maxHeight="25dp"
+            android:text="     원하시는 인감이 맞으시면 다음버튼을 클릭하시고,"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:maxHeight="25dp"
+            android:text="     재촬영을 원하시면 재촬영 버튼을 선택하시면 됩니다"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="2.5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ACAFB6"
+            android:text="재촬영"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="2.5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#6DADA4"
+            android:text="다음"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
